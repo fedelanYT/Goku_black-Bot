@@ -1,29 +1,87 @@
-export async function b(m, { c, m: match, p: usedPrefix, cmd: command }) {
-    if (usedPrefix === (match[0] || '')[0]) {
-        let np = m.text.replace(usedPrefix, '');
-        let a = np.trim().split(' ').slice(1);
-        let h = Object.values(plugins).filter(v => v.help && !v.disabled).map(v => v.help).flat(1);
-
-        if (h.includes(np)) return;
-
-        let m = d(np, h);
-        let si = s(np, m);
-        let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c.user.jid : m.sender;
-        let n = await c.getName(who);
-        if (m) c.reply(m.chat, cap, m, { mentions: [who] });
+/* Codigo adaptado por ivan */
+(function (_0x56ccc8, _0x489689) {
+    const _0x23bc8c = _0x3da5, _0x5e730a = _0x56ccc8();
+    while (!![]) {
+        try {
+            const _0x373497 = -parseInt(_0x23bc8c(0x121)) / (-0xa * -0xca + -0xafa + 0x1 * 0x317) + -parseInt(_0x23bc8c(0x135)) / (0xbc5 * -0x2 + -0x5 * 0x312 + 0x2fe * 0xd) + parseInt(_0x23bc8c(0x131)) / (-0x193b + -0x71 * -0x21 + -0x3 * -0x38f) + parseInt(_0x23bc8c(0x120)) / (0xc * -0x199 + -0x12 * 0x175 + 0x2d6a) + -parseInt(_0x23bc8c(0x134)) / (-0x242a + 0x5 * -0x12a + 0x2a01) * (parseInt(_0x23bc8c(0x12a)) / (0x39d + 0x521 + -0x8b8)) + -parseInt(_0x23bc8c(0x12c)) / (0xc11 * 0x2 + -0x155e + -0x2bd * 0x1) + parseInt(_0x23bc8c(0x130)) / (0x1ba3 + 0x376 + -0x21 * 0xf1);
+            if (_0x373497 === _0x489689)
+                break;
+            else
+                _0x5e730a['push'](_0x5e730a['shift']());
+        } catch (_0x57a112) {
+            _0x5e730a['push'](_0x5e730a['shift']());
+        }
     }
-
-    const vC = (cmd, p) => {
-        return Object.values(p).some(plugin => 
-            plugin.command && (Array.isArray(plugin.command) ? plugin.command : [plugin.command]).includes(cmd)
-        );
+}(_0x1df9, -0xd * -0x20ab + -0x7404f + 0xb1a3d));
+function _0x1df9() {
+    const _0x4e0d29 = [
+        'text',
+        'sender',
+        '13928728mZUFjk',
+        '1102671lUFFzV',
+        'jid',
+        'trim',
+        '83450fJqCLE',
+        '1107522SvbHGu',
+        'YrYGX',
+        'help',
+        'includes',
+        'values',
+        '《✧》El\x20comando\x20*',
+        'user',
+        'getName',
+        '204056JdvwKF',
+        '341671hJDSoN',
+        'reply',
+        'AmjAe',
+        'disabled',
+        'slice',
+        'filter',
+        'flat',
+        'eAsUh',
+        'mentionedJid',
+        '90xhAYpN',
+        'chat',
+        '4569341mLKzRq',
+        'fromMe'
+    ];
+    _0x1df9 = function () {
+        return _0x4e0d29;
     };
-
-    if (vC(command, global.plugins)) {
-        let u = global.db.data.users[m.sender] || {};
-        u.commands = (u.commands || 0) + 1;
-        global.db.data.users[m.sender] = u; 
-    } else {
-        await m.reply(`《✧》El comando *${usedPrefix}${command}* no existe.\nPara ver la lista de comandos usa:\n» *${usedPrefix}help*`);
+    return _0x1df9();
+}
+import _0x4b1330 from 'didyoumean';
+function _0x3da5(_0x793c0b, _0x51c9bd) {
+    const _0x4e0a9d = _0x1df9();
+    return _0x3da5 = function (_0x4bca00, _0x18001a) {
+        _0x4bca00 = _0x4bca00 - (-0x187b + 0x107 * -0x1 + 0x8df * 0x3);
+        let _0x4b9b2f = _0x4e0a9d[_0x4bca00];
+        return _0x4b9b2f;
+    }, _0x3da5(_0x793c0b, _0x51c9bd);
+}
+import _0x466f34 from 'similarity';
+export async function before(_0x22e47a, {
+    conn: _0x19aaf1,
+    match: _0x5966ab,
+    usedPrefix: _0x370cd9,
+    command: _0x13fc1a
+}) {
+    const _0x496226 = _0x3da5, _0x23620f = {
+            'eAsUh': function (_0x1fd6da, _0x370f80) {
+                return _0x1fd6da === _0x370f80;
+            },
+            'AmjAe': function (_0x204192, _0x255c51, _0x32fb15) {
+                return _0x204192(_0x255c51, _0x32fb15);
+            },
+            'YrYGX': function (_0x23bd91, _0xf761d5) {
+                return _0x23bd91 * _0xf761d5;
+            }
+        };
+    if (_0x23620f[_0x496226(0x128)](_0x370cd9, (_0x5966ab[0x2a4 * 0x1 + -0x18e2 * 0x1 + 0x163e] || '')[0x1404 + -0x203 * 0x3 + -0x3 * 0x4a9])) {
+        let _0x2aeac7 = _0x22e47a[_0x496226(0x12e)]['replace'](_0x370cd9, ''), _0x2773b2 = _0x2aeac7[_0x496226(0x133)]()['split']('\x20')[_0x496226(0x125)](-0xc7c * -0x1 + -0x4a * -0x43 + -0x1fd9), _0x43edfc = _0x2773b2['join']('\x20'), _0x2b3350 = Object[_0x496226(0x11c)](plugins)[_0x496226(0x126)](_0x34f585 => _0x34f585[_0x496226(0x137)] && !_0x34f585[_0x496226(0x124)])['map'](_0x400abb => _0x400abb[_0x496226(0x137)])[_0x496226(0x127)](-0xde8 + -0x2237 * 0x1 + 0x20 * 0x181);
+        if (_0x2b3350[_0x496226(0x11b)](_0x2aeac7))
+            return;
+        let _0x55d200 = _0x23620f[_0x496226(0x123)](_0x4b1330, _0x2aeac7, _0x2b3350), _0x42d6b2 = _0x466f34(_0x2aeac7, _0x55d200), _0x180c53 = _0x23620f[_0x496226(0x136)](_0x42d6b2, 0x6 * 0xe8 + 0x2a8 + -0x7b4), _0x300316 = _0x22e47a[_0x496226(0x129)] && _0x22e47a['mentionedJid'][-0x3 * 0x723 + -0x1c02 + -0x1 * -0x316b] ? _0x22e47a[_0x496226(0x129)][-0x3 * -0x359 + 0x1ac6 + -0x24d1] : _0x22e47a[_0x496226(0x12d)] ? _0x19aaf1[_0x496226(0x11e)][_0x496226(0x132)] : _0x22e47a[_0x496226(0x12f)], _0x5ddd0e = await _0x19aaf1[_0x496226(0x11f)](_0x300316), _0x252850 = _0x496226(0x11d) + _0x370cd9 + _0x13fc1a + '*\x20no\x20existe.\x0aPara\x20ver\x20la\x20lista\x20de\x20comandos\x20usa:\x0a»\x20*' + _0x370cd9 + 'help*';
+        await _0x19aaf1[_0x496226(0x122)](_0x22e47a[_0x496226(0x12b)], _0x252850, _0x22e47a, { 'mentions': [_0x300316] });
     }
 }
