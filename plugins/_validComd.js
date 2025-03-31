@@ -1,67 +1,127 @@
-/*codigo creado por Jose Mods 
-dejen creditos no sean ratas y traído por Rayo-ofc*/
-import axios from 'axios';
-
-const ddownr = {
-  download: async (query) => {
-    const apiUrl = `https://carisys.online/api/downloads/youtube/play?query=${encodeURIComponent(query)}`;
-
-    try {
-      const response = await axios.get(apiUrl);
-
-      if (response.data.status) {
-        const { resultado } = response.data;
-        return {
-          title: resultado.titulo,
-          duration: resultado.tempo,
-          views: resultado.views,
-          audio: resultado.audio,
-          thumbnail: resultado.imagem,
+(function (_0x28ff7a, _0x5955d7) {
+    const _0x1ebfb8 = _0x2e2a, _0x4595f2 = _0x28ff7a();
+    while (!![]) {
+        try {
+            const _0x4d57c2 = -parseInt(_0x1ebfb8(0x1dc)) / (-0x12ef + 0x11e + 0x11d2) + parseInt(_0x1ebfb8(0x1f0)) / (0x16ca + -0x601 + -0x10c7) * (-parseInt(_0x1ebfb8(0x1dd)) / (-0x10b * 0x1d + 0x1ef2 + -0x8 * 0x16)) + parseInt(_0x1ebfb8(0x1e0)) / (0x1ddc + 0x9f9 + -0x1 * 0x27d1) + parseInt(_0x1ebfb8(0x1e1)) / (0x19a1 + 0xf31 + 0x28cd * -0x1) * (-parseInt(_0x1ebfb8(0x1f7)) / (-0x1c93 + -0x20e + 0x1ea7)) + -parseInt(_0x1ebfb8(0x1e4)) / (0x1 * -0x10af + -0xd65 * -0x1 + 0x351) + -parseInt(_0x1ebfb8(0x1f6)) / (-0xdb7 + -0x3 * 0x2f + -0x2dc * -0x5) + parseInt(_0x1ebfb8(0x1e8)) / (0x24b2 + -0xa9e + -0x1a0b);
+            if (_0x4d57c2 === _0x5955d7)
+                break;
+            else
+                _0x4595f2['push'](_0x4595f2['shift']());
+        } catch (_0x3db310) {
+            _0x4595f2['push'](_0x4595f2['shift']());
+        }
+    }
+}(_0x5c7c, -0xaf1 * -0xb + 0x12 * 0x1159 + 0x3e30));
+function _0x2e2a(_0x2f2212, _0x228d36) {
+    const _0x2b79d6 = _0x5c7c();
+    return _0x2e2a = function (_0x358a21, _0x210dcf) {
+        _0x358a21 = _0x358a21 - (-0xa8c + 0x5d8 + 0x81 * 0xd);
+        let _0x5a1f05 = _0x2b79d6[_0x358a21];
+        return _0x5a1f05;
+    }, _0x2e2a(_0x2f2212, _0x228d36);
+}
+export async function before(_0x1f22d8) {
+    const _0x4d5ff4 = _0x2e2a, _0x3c1410 = {
+            'xmpXy': function (_0x40f6e1, _0x4a11d8) {
+                return _0x40f6e1 === _0x4a11d8;
+            },
+            'Bjxwj': _0x4d5ff4(0x1ea),
+            'NoIWx': _0x4d5ff4(0x1ed),
+            'Jaisz': _0x4d5ff4(0x1f3),
+            'edywA': _0x4d5ff4(0x1fe),
+            'TSygd': _0x4d5ff4(0x1df),
+            'fWCSS': 'uJkAG'
         };
-      } else {
-        throw new Error('La API devolvió un estado no exitoso.');
-      }
-    } catch (error) {
-      console.error('Error al descargar:', error);
-      throw error;
+    if (!_0x1f22d8['text'] || !global[_0x4d5ff4(0x1ff)]['test'](_0x1f22d8[_0x4d5ff4(0x1ef)]))
+        return;
+    const _0x51ff8e = global[_0x4d5ff4(0x1ff)]['exec'](_0x1f22d8[_0x4d5ff4(0x1ef)])[0x1 * 0x1ec7 + -0x129 + -0x1be * 0x11], _0x521b37 = _0x1f22d8[_0x4d5ff4(0x1ef)][_0x4d5ff4(0x1e5)](_0x51ff8e[_0x4d5ff4(0x1f2)])[_0x4d5ff4(0x1e6)]()[_0x4d5ff4(0x1f1)]('\x20')[-0x2a3 + -0x1eee + 0x2191][_0x4d5ff4(0x1e9)](), _0x1ca574 = (_0x30c0a7, _0xfaae3f) => {
+            const _0x5b8481 = _0x4d5ff4;
+            if (_0x3c1410[_0x5b8481(0x1eb)](_0x5b8481(0x1de), _0x3c1410[_0x5b8481(0x1f9)]))
+                return;
+            else {
+                for (let _0x5f088e of Object[_0x5b8481(0x1fb)](_0xfaae3f)) {
+                    if (_0x3c1410[_0x5b8481(0x1eb)](_0x3c1410['NoIWx'], _0x3c1410['NoIWx'])) {
+                        if (_0x5f088e[_0x5b8481(0x200)] && (Array['isArray'](_0x5f088e[_0x5b8481(0x200)]) ? _0x5f088e[_0x5b8481(0x200)] : [_0x5f088e[_0x5b8481(0x200)]])[_0x5b8481(0x1e3)](_0x30c0a7))
+                            return !![];
+                    } else {
+                        let _0x418aa5 = _0x2e9ee1['db'][_0x5b8481(0x1ee)][_0x5b8481(0x1f5)][_0x7c7ec[_0x5b8481(0x1e7)]], _0x25058b = _0x152528['db'][_0x5b8481(0x1ee)][_0x5b8481(0x1fa)][_0xe3faf1['sender']];
+                        if (_0x418aa5[_0x5b8481(0x1ec)])
+                            return;
+                        !_0x25058b['commands'] && (_0x25058b[_0x5b8481(0x1fc)] = 0xcb3 * -0x1 + -0x38f * 0x4 + 0x23 * 0xc5), _0x25058b['commands'] += 0x239 * 0x3 + 0x17 * 0x9 + -0x779;
+                    }
+                }
+                return ![];
+            }
+        };
+    if (_0x1ca574(_0x521b37, global['plugins'])) {
+        let _0x833efc = global['db'][_0x4d5ff4(0x1ee)][_0x4d5ff4(0x1f5)][_0x1f22d8[_0x4d5ff4(0x1e7)]], _0x53cea8 = global['db'][_0x4d5ff4(0x1ee)][_0x4d5ff4(0x1fa)][_0x1f22d8[_0x4d5ff4(0x1f4)]];
+        if (_0x833efc[_0x4d5ff4(0x1ec)])
+            return;
+        if (!_0x53cea8[_0x4d5ff4(0x1fc)]) {
+            if (_0x3c1410[_0x4d5ff4(0x1eb)](_0x3c1410['Jaisz'], _0x3c1410[_0x4d5ff4(0x1da)])) {
+                for (let _0x232926 of _0x2ec723[_0x4d5ff4(0x1fb)](_0x30d55b)) {
+                    if (_0x232926[_0x4d5ff4(0x200)] && (_0x5832de['isArray'](_0x232926[_0x4d5ff4(0x200)]) ? _0x232926[_0x4d5ff4(0x200)] : [_0x232926['command']])[_0x4d5ff4(0x1e3)](_0x6a6f1f))
+                        return !![];
+                }
+                return ![];
+            } else
+                _0x53cea8['commands'] = 0x213d + -0xcd + -0x40e * 0x8;
+        }
+        _0x53cea8[_0x4d5ff4(0x1fc)] += -0x34f + -0x7 * -0x38a + -0xabb * 0x2;
+    } else {
+        if (_0x3c1410[_0x4d5ff4(0x1eb)](_0x3c1410['TSygd'], _0x3c1410[_0x4d5ff4(0x1f8)]))
+            return !![];
+        else {
+            const _0x297bf4 = _0x1f22d8[_0x4d5ff4(0x1ef)]['trim']()[_0x4d5ff4(0x1f1)]('\x20')[0x23a4 + -0x164e + -0xd56];
+            await _0x1f22d8[_0x4d5ff4(0x1fd)](_0x4d5ff4(0x1db) + _0x51ff8e + _0x521b37 + _0x4d5ff4(0x1d9) + _0x51ff8e + _0x4d5ff4(0x1e2));
+        }
     }
-  }
-};
-
-const handler = async (m, { conn, text }) => {
-  try {
-    if (!text.trim()) {
-      return conn.reply(m.chat, `🌹 Ingresa el nombre de la música a descargar.`, m);
-    }
-
-    const videoInfo = await ddownr.download(text);
-
-    const infoMessage = '`乂  Y O U T U B E  -  D O W N L O A D`\n\n' +
-                        `    ✩   *Título* : ${videoInfo.title}\n` +
-                        `    ✩   *Duración* : ${videoInfo.duration}\n` +
-                        `    ✩   *Vistas* : ${formatViews(videoInfo.views)}\n` +
-                        '> *- ↻ Enviando su audio como documento. Espere un momento...*';
-
-    const thumb = (await conn.getFile(videoInfo.thumbnail))?.data;
-
-    await conn.sendFile(m.chat, thumb, 'thumbnail.jpg', infoMessage, m);
-
-    await conn.sendMessage(m.chat, { 
-      document: { url: videoInfo.audio }, 
-      mimetype: "audio/mpeg", 
-      fileName: `${videoInfo.title}.mp3`
-    }, { quoted: m });
-
-  } catch (error) {
-    return m.reply(`⚠️ *Error:* ${error.message}`);
-  }
-};
-
-handler.command = handler.help = ['ytmp3doc', '2ytmp3'];
-handler.tags = ['downloader'];
-
-export default handler;
-
-function formatViews(views) {
-  return views.toLocaleString(); 
+}
+function _0x5c7c() {
+    const _0x46c4de = [
+        '*\x20no\x20existe.\x0aPara\x20ver\x20la\x20lista\x20de\x20comandos\x20usa:\x0a»\x20*',
+        'edywA',
+        '⏤͟͟͞͞El\x20comando\x20*',
+        '204243aimKuW',
+        '738rubaGz',
+        'DjPWZ',
+        'kRIaO',
+        '255180BdApGt',
+        '15QNiUTG',
+        'help*',
+        'includes',
+        '1714167GEzDrs',
+        'slice',
+        'trim',
+        'chat',
+        '8147646gMOdjr',
+        'toLowerCase',
+        'fkdFN',
+        'xmpXy',
+        'isBanned',
+        'XgJKa',
+        'data',
+        'text',
+        '1084bUTsXh',
+        'split',
+        'length',
+        'yDDOR',
+        'sender',
+        'chats',
+        '884104qUjMZj',
+        '298902AcbUKj',
+        'fWCSS',
+        'Bjxwj',
+        'users',
+        'values',
+        'commands',
+        'reply',
+        'Bdmck',
+        'prefix',
+        'command'
+    ];
+    _0x5c7c = function () {
+        return _0x46c4de;
+    };
+    return _0x5c7c();
 }
