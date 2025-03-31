@@ -10,8 +10,6 @@ export async function b(m, { c, m: match, p: usedPrefix, cmd: command }) {
         let si = s(np, m);
         let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c.user.jid : m.sender;
         let n = await c.getName(who);
-        let cap = `《✧》El comando *${usedPrefix}${command}* no existe.\nPara ver la lista de comandos usa:\n» *${usedPrefix}help*`;
-
         if (m) c.reply(m.chat, cap, m, { mentions: [who] });
     }
 
