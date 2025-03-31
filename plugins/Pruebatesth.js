@@ -97,7 +97,6 @@ buttons: [
           },
         },
       ],
-    const JT = {
       contextInfo: {
         externalAdReply: {
           title: packname,
