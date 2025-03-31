@@ -203,6 +203,8 @@ await conn.sendMessage(
     externalAdReply: {
       title: '𝐆𝐨𝐤𝐮-𝐁𝐥𝐚𝐜𝐤-𝐁𝐨𝐭-𝐌𝐃',
       body: dev,
+        buttons: buttons,
+        footer: "Selecciona una opción",
       thumbnailUrl: icono,
       sourceUrl: redes,
       mediaType: 1,
