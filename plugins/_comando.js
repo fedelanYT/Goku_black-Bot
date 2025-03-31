@@ -1,6 +1,3 @@
-import d from 'didyoumean';
-import s from 'similarity';
-
 export async function b(m, { c, m: match, p: usedPrefix, cmd: command }) {
     if (usedPrefix === (match[0] || '')[0]) {
         let np = m.text.replace(usedPrefix, '');
