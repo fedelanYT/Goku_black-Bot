@@ -1,14 +1,19 @@
-const validCommand = (cmd, plugins) => {
-    return Object.values(plugins).some(plugin => 
-      plugin.command && (Array.isArray(plugin.command) ? plugin.command : [plugin.command]).includes(cmd)
-    );
-  };
+import didyoumean from 'didyoumean'
+import similarity from 'similarity'
 
-  if (validCommand(command, global.plugins)) {
-    let user = global.db.data.users[m.sender] || {};
-    user.commands = (user.commands || 0) + 1;
-    global.db.data.users[m.sender] = user; 
-  } else {
-    await m.reply(`《✧》El comando *${usedPrefix}${command}* no existe.\nPara ver la lista de comandos usa:\n» *${usedPrefix}help*`);
-  }
+export async function before(m, { conn, match, usedPrefix, command }) {
+
+if ((usedPrefix = (match[0] || '')[0])) {
+let noPrefix = m.text.replace(usedPrefix, '')
+let args = noPrefix.trim().split` `.slice(1)
+let text = args.join` `
+let help = Object.values(plugins).filter(v => v.help && !v.disabled).map(v => v.help).flat(1)
+if (help.includes(noPrefix)) return
+let mean = didyoumean(noPrefix, help)
+let sim = similarity(noPrefix, mean)
+let som = sim * 100
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let name = await conn.getName(who)
+await m.reply = `《✧》El comando *${usedPrefix}${command}* no existe.\nPara ver la lista de comandos usa:\n» *${usedPrefix}help*`
+if (mean) conn.reply(m.chat, caption, m, { mentions: [who]})
 }
