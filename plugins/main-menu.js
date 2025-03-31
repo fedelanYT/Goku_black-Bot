@@ -172,18 +172,6 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
 /*await conn.reply(m.chat, '╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹*\n├ ⚘݄𖠵⃕⁖𖥔.Ƈᴀʀɢᴀɴᴅᴏ,  ꪶꪾ❍̵̤̂̂ꫂ\n├Ąɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ❞\n╰ׁ̻─ׅׄ─۪۬─۟─۪─۟─۪۬─۟─۪─۟─۪۬─۟─۪─۟┄۪۬┄۟┄۪┈۟┈۪', m, { contextInfo:{ forwardingScore: 2024, isForwarded: true, externalAdReply: {title: namechannel, body: '𝐃𝐞𝐯 𝐖𝐨𝐫𝐝 𝐓𝐞𝐚𝐦 𝐎𝐟𝐢𝐜𝐢𝐚𝐥', sourceUrl: channel, thumbnail: icons }}})*/
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
-    const buttons = [
-      {
-        buttonId: `${_p}owner`,
-        buttonText: { displayText: "Creador" },
-        type: 1,
-      },
-      {
-        buttonId: `${_p}grupos`,
-        buttonText: { displayText: "Grupos" },
-        type: 1,
-      },
-    ];
 await m.react('🫧') 
 
 //await conn.sendFile(m.chat, imagen1, 'yaemori.jpg', text.trim(), fkontak, null, rcanal)
@@ -203,8 +191,6 @@ await conn.sendMessage(
     externalAdReply: {
       title: '𝐆𝐨𝐤𝐮-𝐁𝐥𝐚𝐜𝐤-𝐁𝐨𝐭-𝐌𝐃',
       body: dev,
-        buttons: buttons,
-        footer: "Selecciona una opción",
       thumbnailUrl: icono,
       sourceUrl: redes,
       mediaType: 1,
