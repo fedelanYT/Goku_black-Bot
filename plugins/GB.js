@@ -37,7 +37,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['mods *<query>*'];
 handler.tags = ['info'];
-if (/^mods$/i.test(m.text)) {
+ if (/^mod$/i.test(m.text) ) { //sin prefijo 
 handler.register = true;
 
 export default handler;
