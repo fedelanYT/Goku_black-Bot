@@ -37,7 +37,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['mods *<query>*'];
 handler.tags = ['info'];
-handler.command = ['mods', 'mcmods'];
+if (/^mods$/i.test(m.text)) {
 handler.register = true;
 
 export default handler;
