@@ -36,8 +36,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 };
 
 handler.help = ['mods *<query>*'];
-handler.tags = ['info']; handler.customPrefix = /mods/
-handler.command = /^(mods?$)/ 
+handler.tags = ['info'];
+handler.command = ['mod']
 handler.register = true;
 
 export default handler;
