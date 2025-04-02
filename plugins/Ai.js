@@ -25,7 +25,7 @@ let HS = async (m, { conn, text }) => {
       m
     );
 
-    let api = await(await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url=${args[0]}`)).json();
+    let api = await(await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url`)).json();
 
     let json = await api.json();
     if (!json.data || !json.data.download) {
