@@ -2,11 +2,11 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, command }) => {
 
-if (!args[0]) return m.reply(`>「✦」 Ingresa Un Link De YouTube.`);
+if (!args[0]) return m.reply(`「✦」 Ingresa Un Link De YouTube.`);
 
 let black = await(await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url=${args[0]}`)).json();
 
-let texto = `> GOKU-BLACK-BOT-MD 
+let texto = `GOKU-BLACK-BOT-MD 
 ${black.data.title}\n\n✰ *Autor:* ${black.data.author}\n✰ *Duración:* ${black.data.duration}\n✰ *Comentarios:* ${black.data.comments}\n✰ *Vistas:* ${black.data.views}\n> ${dev}`
 
 m.react('🍆')
