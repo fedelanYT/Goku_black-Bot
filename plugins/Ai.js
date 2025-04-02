@@ -25,7 +25,7 @@ let HS = async (m, { conn, text }) => {
       m
     );
 
-    let api = await fetch(`https://restapi.apibotwa.biz.id/api/ytmp4?url=${text}&quality=360`);
+    let api = await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url=${args[0]}`);
     if (!api.ok) throw new Error('No se pudo obtener una respuesta de la API.');
 
     let json = await api.json();
