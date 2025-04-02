@@ -1,71 +1,38 @@
 import fetch from 'node-fetch';
 
-let HS = async (m, { conn, text }) => {
-  if (!text) {
-    return conn.reply(
-      m.chat,
-      '*❌ Error:* Por favor, proporciona un enlace válido de YouTube para descargar el video.',
-      m
-    );
-  }
+let handler = async (m, { conn, args, command }) => {
 
-  const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/;
-  if (!youtubeRegex.test(text)) {
-    return conn.reply(
-      m.chat,
-      '*❌ Error:* El enlace proporcionado no parece ser válido. Asegúrate de que sea un enlace de YouTube.',
-      m
-    );
-  }
+if (!args[0]) return m.reply(`🍭 Ingresa Un Link De YouTube.`);
 
-  try {
-    let downloadMessage = await conn.reply(
-      m.chat,
-      '⏳ *Descargando video...*\nPor favor, espera mientras procesamos tu solicitud.',
-      m
-    );
+let pene = await(await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url=${args[0]}`)).json();
 
-    let api = await(await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url`);
+let texto = `「❖」𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗗𝗲 ${pene.data.title}\n\n✦ *Autor:* ${pene.data.author}\n✦ *Duración:* ${pene.data.duration}\n✦ *Comentarios:* ${pene.data.comments}\n✦ *Vistas:* ${pene.data.views}\n> ${dev}`
 
-    let json = await api.json();
-    if (!json.data || !json.data.download) {
-      throw new Error('No se pudo obtener los datos del video. Verifica el enlace.');
-    }
+m.react(rwait)
+conn.sendMessage(m.chat, { image: { url: pene.data.image }, caption: texto }, { quoted: m });
+m.react(done);
 
-    let title = json.data.metadata.title;
-    let dl_url = json.data.download.url;
+if (command == 'ytmp3doc' || command == 'mp3doc' || command == 'ytadoc') {
+let api = await(await fetch(`https://api.neoxr.eu/api/youtube?url=${args[0]}&type=audio&quality=128kbps&apikey=GataDios`)).json();
 
-    await conn.reply(
-      m.chat,
-      '📤 *Enviando video...*\nEsto puede tardar unos momentos dependiendo del tamaño del archivo.',
-      m
-    );
+if (!api?.data.url) return m.reply('No Se  Encontraron Resultados');
 
-    await conn.sendMessage(
-      m.chat,
-      {
-        document: { url: dl_url },
-        fileName: `${title}.mp4`,
-        mimetype: 'video/mp4',
-      },
-      { quoted: m }
-    );
+await conn.sendMessage(m.chat, { document: { url: api.data.url }, mimetype: 'audio/mpeg', fileName: `${pene.data.title}.mp3` }, { quoted: m });
+ }
 
-    conn.reply(
-      m.chat,
-      `✅ *Video enviado con éxito:*\n*Título:* ${title}\nGracias por usar el servicio.`,
-      m
-    );
-  } catch (error) {
-    console.error(error);
-    conn.reply(
-      m.chat,
-      `❌ *Error al procesar tu solicitud:*\n${error.message}\nPor favor, intenta de nuevo más tarde.`,
-      m
-    );
-  }
-};
+if (command == 'ytmp4doc' || command == 'mp4doc' || command == 'ytvdoc') {
+let video = await (await fetch(`https://api.agungny.my.id/api/youtube-video?url=${args[0]}`)).json();
 
-HS.command = ['ytmp4doc'];
+let link = video?.result.result.download;
 
-export default HS;
+if (!link) return m.reply('No Hubo Resultados');
+
+await conn.sendMessage(m.chat, { document: { url: link }, fileName: `${video.result.result.title}.mp4`, caption: `> ${wm}`, mimetype: 'video/mp4' }, { quoted: m })    
+   }
+}
+
+handler.help = ['ytmp3doc', 'ytmp4doc'];
+handler.tag = ['descargas'];
+handler.command = ['ytmp3doc', 'mp3doc', 'ytmp4doc', 'mp4doc', 'ytadoc', 'ytvdoc'];
+
+export default handler;
