@@ -25,8 +25,7 @@ let HS = async (m, { conn, text }) => {
       m
     );
 
-    let api = await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url=${args[0]}`);
-    if (!api.ok) throw new Error('No se pudo obtener una respuesta de la API.');
+    let api = await(await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url=${args[0]}`)).json();
 
     let json = await api.json();
     if (!json.data || !json.data.download) {
