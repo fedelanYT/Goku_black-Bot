@@ -1,39 +1,72 @@
 import fetch from 'node-fetch';
 
-let handler = async (m, { conn, args, command }) => {
+let HS = async (m, { conn, text }) => {
+  if (!text) {
+    return conn.reply(
+      m.chat,
+      '*❌ Error:* Por favor, proporciona un enlace válido de YouTube para descargar el video.',
+      m
+    );
+  }
 
-if (!args[0]) return m.reply(`「✦」 Ingresa Un Link De YouTube.`);
+  const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/;
+  if (!youtubeRegex.test(text)) {
+    return conn.reply(
+      m.chat,
+      '*❌ Error:* El enlace proporcionado no parece ser válido. Asegúrate de que sea un enlace de YouTube.',
+      m
+    );
+  }
 
-let black = await(await fetch(`https://delirius-apiofc.vercel.app/download/ytmp4?url=${args[0]}`)).json();
+  try {
+    let downloadMessage = await conn.reply(
+      m.chat,
+      '⏳ *Descargando video...*\nPor favor, espera mientras procesamos tu solicitud.',
+      m
+    );
 
-let texto = `GOKU-BLACK-BOT-MD 
-${black.data.title}\n\n✰ *Autor:* ${black.data.author}\n✰ *Duración:* ${black.data.duration}\n✰ *Comentarios:* ${black.data.comments}\n✰ *Vistas:* ${black.data.views}\n> ${dev}`
+    let api = await fetch(`https://restapi.apibotwa.biz.id/api/ytmp4?url=${text}&quality=360`);
+    if (!api.ok) throw new Error('No se pudo obtener una respuesta de la API.');
 
-m.react('🍆')
-conn.sendMessage(m.chat, { image: { url: black.data.image }, caption: texto }, { quoted: m });
-m.react('✅');
+    let json = await api.json();
+    if (!json.data || !json.data.download) {
+      throw new Error('No se pudo obtener los datos del video. Verifica el enlace.');
+    }
 
-if (command == 'ytmp3doc' || command == 'mp3doc' || command == 'ytadoc') {
-let api = await(await fetch(`https://dark-core-api.vercel.app/api/download/YTMP3?key=dk-vip&url=${args[0]}`)).json();
+    let title = json.data.metadata.title;
+    let dl_url = json.data.download.url;
 
-if (!api?.download) return m.reply('No Se  Encontraron Resultados');
+    await conn.reply(
+      m.chat,
+      '📤 *Enviando video...*\nEsto puede tardar unos momentos dependiendo del tamaño del archivo.',
+      m
+    );
 
-await conn.sendMessage(m.chat, { document: { url: api.download }, mimetype: 'audio/mpeg', fileName: `${api.title}.mp3` }, { quoted: m });
- }
+    await conn.sendMessage(
+      m.chat,
+      {
+        document: { url: dl_url },
+        fileName: `${title}.mp4`,
+        mimetype: 'video/mp4',
+      },
+      { quoted: m }
+    );
 
-if (command == 'ytmp4doc' || command == 'mp4doc' || command == 'ytvdoc') {
-let video = await (await fetch(`https://api.fgmods.xyz/api/downloader/ytmp4?url=${args[0]}&quality=480p&apikey=elrebelde21`)).json();
+    conn.reply(
+      m.chat,
+      `✅ *Video enviado con éxito:*\n*Título:* ${title}\nGracias por usar el servicio.`,
+      m
+    );
+  } catch (error) {
+    console.error(error);
+    conn.reply(
+      m.chat,
+      `❌ *Error al procesar tu solicitud:*\n${error.message}\nPor favor, intenta de nuevo más tarde.`,
+      m
+    );
+  }
+};
 
-let link = video?.result.dl_url;
+HS.command = ['ytmp4doc'];
 
-if (!link) return m.reply('No Hubo Resultados');
-
-await conn.sendMessage(m.chat, { document: { url: link }, fileName: `${video.result.title}.mp4`, caption: `> ${wm}`, mimetype: 'video/mp4' }, { quoted: m })    
-   }
-}
-
-handler.help = ['ytmp4doc'];
-handler.tag = ['descargas'];
-handler.command = ['ytmp3doc', 'ytmp4doc'];
-
-export default handler;
+export default HS;
