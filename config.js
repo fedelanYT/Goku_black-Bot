@@ -26,15 +26,15 @@ global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = '𝐆𝐎𝐊𝐔-𝐁𝐋𝐀𝐂𝐊-𝐌𝐃'
-global.packname = '󠁖󠁖󠁖󠁖󠁖󠁖󠁻󠁻𝐆𝐎𝐊𝐔𝐁𝐋𝐀𝐂𝐊-𝐌𝐃'
+global.packname = '󠁖󠁖󠁖󠁖󠁖󠁖󠁻󠁻𝐆𝐎𝐊𝐔-𝐁𝐋𝐀𝐂𝐊-𝐌𝐃'
 global.author = '𝐺𝑂𝐾𝑈-𝐵𝐿𝐴𝐶𝐾-𝑀𝐷 ´･ᴗ･`'
 global.wm = 'l ꙰ 𝙶𝙾𝙺𝚄-𝙱𝙻𝙰𝙲𝙺-𝙼𝙳 l ꙰';
-global.titulowm = '𝘗𝘖𝘞𝘌𝘙 𝘉𝘠 Fede';
+global.titulowm = 'ძᥱ᥎ᥱᥣ᥆⍴ᥱძ ᑲᥡ • 𝖿ᥱძᥱᥣᥲᥒ';
 global.titulowm2 = 'GOKᑌ-ᗷᒪᗩᑕK-ᗰᗪ'
 global.igfg = 'ɢ૦𝗞Ս-𝗕𐐛𝔸𐊢𝗞-ᎷＤ '
 global.botname = '𝐺𝑂𝐾𝑈-𝐵𝐿𝐴𝐶𝐾-𝑀𝐷 💥'
 global.dev = 'g᥆kᥙ-ᑲᥣᥲᥴk-mძ ﾉ)ﾟДﾟ(ヽ'
-global.textbot = 'ɠσƙυ-Ⴆʅαƈƙ-ɱԃ ճվ 𝖿ᥱძᥱ'
+global.textbot = 'ძᥱ᥎ᥱᥣ᥆⍴ᥱძ ᑲᥡ • 𝖿ᥱძᥱᥣᥲᥒ'
 global.gt = '𝗚𝗢𝗞𝗨𝗕𝗟𝗔𝗖𝗞';
 global.namechannel = '𝗚𝗢𝗞𝗨-𝗕𝗟𝗔𝗖𝗞-𝗠𝗗 🗻'
 global.vs = 'V2'
