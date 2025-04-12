@@ -1,15 +1,15 @@
-## `Goku-Black-Bot-MD` 
+## `Goku-Black-MD` 
 <p align="center">
-<img src="https://telegra.ph/file/49baa73f0c2f42ad7e85b.png" alt="Goku-Black-Bot-MD-Lite" width="900"/>
+<img src="https://telegra.ph/file/49baa73f0c2f42ad7e85b.png" alt="Goku-Black-MD-Lite" width="900"/>
 </p>
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 
 
-### `✨ Goku-Black-Bot-MD ✨`
+### `✨ Goku-Black-MD ✨`
 
-<a href="https://api.whatsapp.com/send/?phone=595992809980&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send/?phone=5491156178758&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 𝗦𝗜 𝗡𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗘𝗦 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗘𝗦𝗧𝗔 𝗘𝗡 𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗬 𝗘𝗡 𝗘𝗦𝗘 𝗖𝗔𝗦𝗢 𝗛𝗔𝗕𝗟𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗦𝗧𝗔𝗙𝗙💖
 
@@ -53,7 +53,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/Eliasivan/Goku-Black-Bot-MD.git && cd Goku-Black-Bot-MD
+git clone https://github.com/fedelan/Goku-Black-MD.git && cd Goku-Black-MD
 ```
 
 ```bash
@@ -90,6 +90,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ## `PROPIETARIO DEL BOT` 
-<a href="https://github.com/Eliasivan"><img src="https://github.com/Eliasivan.png" width="250" height="250" alt="Ivan"/></a>
+<a href="https://github.com/fedelan"><img src="https://github.com/fedelan.png" width="250" height="250" alt="fede"/></a>
   
 ## `Goku-Black-Bot-MD`
