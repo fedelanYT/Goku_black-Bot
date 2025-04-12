@@ -24,7 +24,7 @@
 "name": "fedelan" },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Eliasivan/Goku-Black-MD.git" },
+"url": "git+https://github.com/fedelan/Goku-Black-MD.git" },
 "bugs": { "url": "https://github.com/fedelan/Goku-Black-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
