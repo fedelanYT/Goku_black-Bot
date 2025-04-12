@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-say(`Developed By • Fede`, {
+say(`Developed By • Fedelan`, {
 font: 'console',
 align: 'center',
 colors: ['yellow']
