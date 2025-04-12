@@ -23,16 +23,16 @@
 
 
 ### `—◉ ⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/Ivanmods15/Goku-Black-Bot-MD-Lite/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/fedelan/Goku-Black-MD-Lite/fork)
 
   
 ### `—◉ 💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Ivanmods15/Goku-Black-Bot-MD-Lite&branch=master&name=GokuBlack-Bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/fedelan/Goku-Black-MD-Lite&branch=master&name=GokuBlack-Bot)
   
 ### `—◉ 🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/Ivanmods15/Goku-Black-Bot-MD-Lite)](https://repl.it/github/Ivanmods15/Goku-Black-Bot-MD-Lite) 
+[![Run on Repl.it](https://repl.it/badge/github/fedelan/Goku-Black-MD-Lite)](https://repl.it/github/fedelan/Goku-Black-MD-Lite) 
   
 ### `—◉ 📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
@@ -92,4 +92,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## `PROPIETARIO DEL BOT` 
 <a href="https://github.com/fedelan"><img src="https://github.com/fedelan.png" width="250" height="250" alt="fede"/></a>
   
-## `Goku-Black-Bot-MD`
+## `Goku-Black-MD`
