@@ -1,5 +1,5 @@
 {
-"name":"Goku-Black-Bot-MD",
+"name":"Goku-Black-MD",
 "version":"2.0.1",
 "description": "El Mejor Bot De WhatsApp",
 "main": "index.js",
@@ -19,13 +19,13 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Eliasivan/Goku-Black-Bot-MD",
+"homepage": "https://github.com/fedelan/Goku-Black-MD",
 "author": {
-"name": "Eliasivan" },
+"name": "fedelan" },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Eliasivan/Goku-Black-Bot-MD.git" },
-"bugs": { "url": "https://github.com/Eliasivan/Goku-Black-Bot-MD/issues" },
+"url": "git+https://github.com/Eliasivan/Goku-Black-MD.git" },
+"bugs": { "url": "https://github.com/fedelan/Goku-Black-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "github:ds6/bails",
