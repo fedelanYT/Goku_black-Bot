@@ -6,7 +6,7 @@ import moment from 'moment-timezone';
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botnumber = '' //Ejemplo: +573138954963
+global.botnumber = '' //Ejemplo: +543138954963
 global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
@@ -25,18 +25,18 @@ global.suittag = ['5491156178758']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packsticker = '𝐆𝐎𝐊𝐔-𝐁𝐋𝐀𝐂𝐊-𝐁𝐎𝐓-𝐌𝐃'
-global.packname = '󠁖󠁖󠁖󠁖󠁖󠁖󠁻󠁻𝐆𝐎𝐊𝐔𝐁𝐋𝐀𝐂𝐊-𝐁𝐎𝐓-𝐌𝐃'
-global.author = '𝐺𝑂𝐾𝑈-𝐵𝐿𝐴𝐶𝐾-𝐵𝑂𝑇-𝑀𝐷 ´･ᴗ･`'
+global.packsticker = '𝐆𝐎𝐊𝐔-𝐁𝐋𝐀𝐂𝐊-𝐌𝐃'
+global.packname = '󠁖󠁖󠁖󠁖󠁖󠁖󠁻󠁻𝐆𝐎𝐊𝐔𝐁𝐋𝐀𝐂𝐊-𝐌𝐃'
+global.author = '𝐺𝑂𝐾𝑈-𝐵𝐿𝐴𝐶𝐾-𝑀𝐷 ´･ᴗ･`'
 global.wm = 'l ꙰ 𝙶𝙾𝙺𝚄-𝙱𝙻𝙰𝙲𝙺-𝙱𝙾𝚃-𝙼𝙳 l ꙰';
-global.titulowm = '𝘗𝘖𝘞𝘌𝘙 𝘉𝘠 𝘐𝘝𝘈𝘕';
-global.titulowm2 = 'GOKᑌ-ᗷᒪᗩᑕK-ᗷOT-ᗰᗪ'
-global.igfg = 'ɢ૦𝗞Ս-𝗕𐐛𝔸𐊢𝗞-𝗕૦𝚃-ᎷＤ '
-global.botname = '𝐺𝑂𝐾𝑈-𝐵𝐿𝐴𝐶𝐾-𝐵𝑂𝑇-𝑀𝐷 💥'
+global.titulowm = '𝘗𝘖𝘞𝘌𝘙 𝘉𝘠 Fede';
+global.titulowm2 = 'GOKᑌ-ᗷᒪᗩᑕK-ᗰᗪ'
+global.igfg = 'ɢ૦𝗞Ս-𝗕𐐛𝔸𐊢𝗞-ᎷＤ '
+global.botname = '𝐺𝑂𝐾𝑈-𝐵𝐿𝐴𝐶𝐾-𝑀𝐷 💥'
 global.dev = 'g᥆kᥙ-ᑲᥣᥲᥴk-ᑲ᥆𝗍-mძ ﾉ)ﾟДﾟ(ヽ'
-global.textbot = 'ɠσƙυ-Ⴆʅαƈƙ-Ⴆσƚ-ɱԃ ճվ íѵαղ'
+global.textbot = 'ɠσƙυ-Ⴆʅαƈƙ-Ⴆσƚ-ɱԃ ճվ fede'
 global.gt = '𝗚𝗢𝗞𝗨𝗕𝗟𝗔𝗖𝗞';
-global.namechannel = '𝗚𝗢𝗞𝗨-𝗕𝗟𝗔𝗖𝗞-𝗕𝗢𝗧-𝗠𝗗 🗻'
+global.namechannel = '𝗚𝗢𝗞𝗨-𝗕𝗟𝗔𝗖𝗞-𝗠𝗗 🗻'
 global.vs = 'V2'
 global.vsJB = '5.0'
 
