@@ -1,6 +1,6 @@
-## `Goku-Black-MD` 
+## `Goku-Black-Bot` 
 <p align="center">
-<img src="https://telegra.ph/file/49baa73f0c2f42ad7e85b.png" alt="Goku-Black-MD-Lite" width="900"/>
+<img src="https://telegra.ph/file/49baa73f0c2f42ad7e85b.png" alt="Goku-Black-Bot" width="900"/>
 </p>
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -92,4 +92,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## `PROPIETARIO DEL BOT` 
 <a href="https://github.com/fedelanYT"><img src="https://github.com/fedelanYT.png" width="250" height="250" alt="fede"/></a>
   
-## `Goku-Black-MD`
+## `Goku-Black-Bot`
