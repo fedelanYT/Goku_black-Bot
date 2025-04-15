@@ -1,6 +1,6 @@
 ## `Goku-Black-Bot` 
 <p align="center">
-<img src="https://telegra.ph/file/49baa73f0c2f42ad7e85b.png" alt="Goku-Black-Bot" width="900"/>
+<img src="https://telegra.ph/file/49baa73f0c2f42ad7e85b.png" alt="Goku_black-Bot" width="900"/>
 </p>
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -23,12 +23,12 @@
 
 
 ### `—◉ ⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/fedelan/Goku_black-bot-Lite/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/fedelan/Goku_black-bot-/fork)
 
   
 ### `—◉ 💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/fedelanYT/Goku_black-Bot-Lite&branch=master&name=GokuBlack-MD)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/fedelanYT/Goku_black-Bot-Lite&branch=master&name=Gokublack-Bot)
   
 ### `—◉ 🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
@@ -53,7 +53,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/fedelanYT/Goku_black-Bot.git && cd Goku-Black-MD
+git clone https://github.com/fedelanYT/Goku_black-Bot.git && cd Goku_black-Bot
 ```
 
 ```bash
@@ -76,7 +76,7 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Black-termux
+> cd black-termux
 > npm start
 ```
 
@@ -85,7 +85,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> rm -rf Blacksession
+> rm -rf blacksession
 > npm start
 ```
 
