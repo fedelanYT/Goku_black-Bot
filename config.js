@@ -73,7 +73,7 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.8'
 global.languaje = 'Español'
 global.nameqr = '𝗚𝗼𝗸𝘂_𝗯𝗹𝗮𝗰𝗸-𝗕𝗼𝘁'
-global.sessions = 'Blacksesion'
+global.sessions = 'blacksesion'
 global.jadi = 'jadibots'
 global.blackJadibts = true
 
