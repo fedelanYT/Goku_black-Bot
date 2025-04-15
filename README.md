@@ -88,6 +88,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf blacksession
 > npm start
 ```
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 ## `PROPIETARIO DEL BOT` 
 <a href="https://github.com/fedelanYT"><img src="https://github.com/fedelanYT.png" width="250" height="250" alt="fede"/></a>
