@@ -1,8 +1,8 @@
-# Código desarrollado por @fedelan 
+# Código desarrollado por @fedelan
   # * Al bifurcar este repositorio, dejen los créditos a todos los creadores de cada código por favor. ♥
 #!/data/data/com.termux/files/usr/bin/bash 
-BOT_DIR="Goku-Black-MD"  
-BOT_REPO="https://github.com/fedelan/$BOT_DIR"
+BOT_DIR="Goku_black-Bot"  
+BOT_REPO="https://github.com/fedelanYT/$BOT_DIR"
 DB_FILE="database.json"
 
 GREEN='\033[32m'
