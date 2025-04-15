@@ -582,7 +582,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 //await conn.sendPresenceUpdate('composing', m.chat);
 //this.sendPresenceUpdate('recording', m.chat);
 
-if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|bot|ify|goku|black|GokuBlack|a|s)/gi)) {
+if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|bot|ify|goku|black|Gokublack|a|s)/gi)) {
 let emot = pickRandom(["🚩", "🍟", "🔥","✨️", "🌸", "💥", "⭐️", "🌟", "🍂", "🫂", "🍁", "💖", "💞", "💕", "💋"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
@@ -741,7 +741,7 @@ group: '『✨』 *𝙴𝚜𝚝𝚊 𝚏𝚞𝚗𝚌𝚒𝚘𝚗 𝚜𝚘𝚕�
 private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 
 admin: '「👑」 *Este comando solo puede ser usado por admins.*', 
 botAdmin: '「🚩」 *Para usar esta función debo ser admin.*', 
-unreg: '「˗ˏˋ ♡ ˎˊ˗」 *¡oye tu! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg GokuBlack.13*',
+unreg: '「˗ˏˋ ♡ ˎˊ˗」 *¡oye tu! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg Fede.13*',
 restrict: '「💫」 *Esta característica esta desactivada.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
