@@ -23,16 +23,16 @@
 
 
 ### `—◉ ⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/fedelan/Goku-Black-MD-Lite/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/fedelan/Goku_black-bot-Lite/fork)
 
   
 ### `—◉ 💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/fedelan/Goku-Black-MD-Lite&branch=master&name=GokuBlack-MD)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/fedelanYT/Goku_black-Bot-Lite&branch=master&name=GokuBlack-MD)
   
 ### `—◉ 🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/fedelan/Goku-Black-MD-Lite)](https://repl.it/github/fedelan/Goku-Black-MD-Lite) 
+[![Run on Repl.it](https://repl.it/badge/github/fedelanYT/Goku_black-Bot-Lite)](https://repl.it/github/fedelanYT/Goku_black-Bot-Lite) 
   
 ### `—◉ 📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
@@ -53,7 +53,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/fedelan/Goku-Black-MD.git && cd Goku-Black-MD
+git clone https://github.com/fedelanYT/Goku_black-Bot.git && cd Goku-Black-MD
 ```
 
 ```bash
