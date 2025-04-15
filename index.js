@@ -7,13 +7,13 @@ import cfonts from 'cfonts';
 import { createInterface } from 'readline';
 import yargs from 'yargs';
 import chalk from 'chalk';
-console.log('\n✰ Iniciando GokuBlack ✰');
+console.log('\n✰ Iniciando Gokublack ✰');
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Goku-Black\nMD', {
+say('Goku_,black\nBot', {
 font: 'block',
 align: 'center',
 colors: ['red']
@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-say(`Developed By • Fedelan`, {
+say(`Developed By • fedelanYT`, {
 font: 'console',
 align: 'center',
 colors: ['yellow']
@@ -77,4 +77,4 @@ console.warn('🚩 Se excedió el límite de Listeners en:');
 console.warn(warning.stack);
 }
 });
-start('Ivan.js');
+start('fede.js');
