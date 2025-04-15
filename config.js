@@ -6,7 +6,7 @@ import moment from 'moment-timezone';
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botnumber = '' //Ejemplo: +543138954963
+global.botnumber = '' //Ejemplo: 541138954963
 global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
@@ -95,13 +95,13 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":'Gokublack-Bot', "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `Goku_black-Bot\n fede`, 'jpegThumbnail': logo4 }}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp4 = 'https://chat.whatsapp.com/J5jRPf1fN6y58CcwkFx5Mj' //Grupo Oficial De Goku_black 
-global.gp1 = 'https://chat.whatsapp.com/J5jRPf1fN6y58CcwkFx5Mj' //Grupo 
-global.gp2 = 'https://chat.whatsapp.com/J5jRPf1fN6y58CcwkFx5Mj' //Grupo
+global.gp4 = 'https://chat.whatsapp.com/L6Aiv7yk9YNEcmgGn4Sw7u' //Grupo Oficial De Goku_black 
+global.gp1 = 'https://chat.whatsapp.com/LAAkPVYuiQp4iLI7pSeQVi' //Grupo 
+global.gp2 = 'https://chat.whatsapp.com/L6Aiv7yk9YNEcmgGn4Sw7u' //Grupo
 global.comunidad1 = 'https://chat.whatsapp.com/K0534XyhiHp3vm49GxKcC0' //Comunidad Goku_black-Bot
 global.channel = 'https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n' //Canal Oficial
 global.yt = 'https://youtube.com/@Fedelan_v13' //Canal De Youtube
-global.md = 'https://github.com/fedelan' //Github Oficial
+global.md = 'https://github.com/fedelanYT' //Github Oficial
 global.correo = 'vigevanif@yahoo.com'
 global.cn ='';
 
