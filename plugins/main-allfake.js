@@ -32,15 +32,15 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/22ca78070f722917ced75.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/595972157130'
+global.creador = 'Wa.me/5491156178758'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/18294868853'
+global.asistencia = 'Wa.me/13124976342'
 global.namechannel = 'ᧁׁᨵׁׅׅƙׁׅυׁׅ-֮ϐׁᥣׁׅ֪ɑׁׅᝯׁ֒ƙׁׅ-֮ϐׁᨵׁׅׅtׁׅ-ꩇׁׅ֪݊ ժׁׅ݊-ᥣׁׅ֪ꪱׁׁׁׅׅׅtׁׅꫀׁׅܻ݊'
-global.namechannel2 = '𝐆𝐎𝐊𝐔-𝐁𝐋𝐀𝐂𝐊-𝐁𝐎𝐓-𝐌𝐃-𝐋𝐈𝐓𝐄 - 𝐓𝐄𝐀𝐌'
+global.namechannel2 = '𝐆𝐎𝐊𝐔-𝐁𝐋𝐀𝐂𝐊-𝐁𝐎𝐓'
 global.namegrupo = 'ɢᴏᴋᴜ-ʙʟᴀᴄᴋ-ʙᴏᴛ-ᴍᴅ-ʟɪᴛᴇ'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝐆𝐎𝐊𝐔𝐁𝐋𝐀𝐂𝐊'
 global.namecomu2 = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝐆𝐎𝐊𝐔𝐁𝐎𝐓'
-global.colab1 = 'Ivan'
+global.colab1 = 'fedelan'
 global.colab2 = 'Dioneibi'
 global.colab3 = 'Jose'
 
@@ -63,8 +63,8 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 
 //Enlaces
-var grupo = 'https://chat.whatsapp.com/GD0al1LF7Ux2dmPF0fDFYZ'
-var canal = 'https://whatsapp.com/channel/0029VaYh3Zm4dTnQKQ3VLT0h'  
+var grupo = 'https://chat.whatsapp.com/L6Aiv7yk9YNEcmgGn4Sw7u'
+var canal = 'https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n'  
 var git = '' 
 var youtube = '' 
 var github = '' 
