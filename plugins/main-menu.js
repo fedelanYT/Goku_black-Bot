@@ -31,11 +31,11 @@ let tags = {
 
 const defaultMenu = {
   before: `╭══════════════ ⪩
-“ Hola *Humano* mi nombre es *Goku-Black-Bot-MD*, %greeting ”
+“ Hola *Humano* mi nombre es *Goku_black-Bot*, %greeting ”
 
 ╔══✦「 Info del Bot 」✦══╗
-║ ✧ 👨🏻‍💻 Creador: Ivan
-║ ✧ 🌀 Tipo Bot: Goku-Black-Bot-MD
+║ ✧ 👨🏻‍💻 Creador: Fedelan 
+║ ✧ 🌀 Tipo Bot: Goku_black-Bot
 ║ ✧ 🚩 Modo: Público
 ║ ✧ 📚 Baileys: Multi Device
 ║ ✧ ⏱️ Tiempo Activo: %uptime
@@ -184,12 +184,12 @@ await conn.sendMessage(
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363276986902836@newsletter',
-      newsletterName: 'ᘜOKᑌ-ᗷᒪᗩᑕK-ᗷOT-ᗰᗪ',
+      newsletterName: 'ᘜOKᑌ_ᗷᒪᗩᑕK-ᗷOT',
       serverMessageId: -1,
     },
     forwardingScore: 999,
     externalAdReply: {
-      title: '𝐆𝐨𝐤𝐮-𝐁𝐥𝐚𝐜𝐤-𝐁𝐨𝐭-𝐌𝐃',
+      title: '𝐆𝐨𝐤𝐮_𝐁𝐥𝐚𝐜𝐤-𝐁𝐨𝐭',
       body: dev,
       thumbnailUrl: icono,
       sourceUrl: redes,
