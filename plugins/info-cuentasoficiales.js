@@ -18,7 +18,7 @@ let handler = async (m, { conn, command }) => {
     let str = `𝖡𝗂𝖾𝗇𝗏𝖾𝗇𝖽𝗂𝗈 𝖠 𝖫𝖺𝗌 𝖢𝗎𝖾𝗇𝗍𝖺𝗌 𝖮𝖿𝗂𝖼𝗂𝖺𝗅𝖾𝗌 😻
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ⚡️ *Propietario:*
-Wa.me/595972157130
+Wa.me/5491156178758
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ❤️‍🔥 *Edicion*
 wa.me/
