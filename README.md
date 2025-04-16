@@ -107,5 +107,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## `PROPIETARIO DEL BOT` 
 <a href="https://github.com/fedelanYT"><img src="https://github.com/fedelanYT.png" width="250" height="250" alt="fede"/></a>
   
-## `Goku-Black-Bot` 
-https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n
+## `Goku-Black-Bot`
