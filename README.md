@@ -99,7 +99,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf blacksession
 > npm start
 ```
+
+
 ---
+
+
 
 ## `PROPIETARIO DEL BOT` 
 <a href="https://github.com/fedelanYT"><img src="https://github.com/fedelanYT.png" width="250" height="250" alt="fede"/></a>
