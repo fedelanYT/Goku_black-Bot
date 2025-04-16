@@ -31,15 +31,15 @@ let tags = {
 
 const defaultMenu = {
   before: `╭══════════════ ⪩
-“ Hola *Humano* mi nombre es *Goku_black-Bot*, %greeting ”
+“ Hola *Humano* mi nombre es *𝗚𝗼𝗸𝘂_𝗯𝗹𝗮𝗰𝗸-𝗕𝗼𝘁*, %greeting ”
 
 ╔══✦「 Info del Bot 」✦══╗
-║ ✧ 👨🏻‍💻 Creador: Fedelan 
-║ ✧ 🌀 Tipo Bot: Goku_black-Bot
-║ ✧ 🚩 Modo: Público
-║ ✧ 📚 Baileys: Multi Device
-║ ✧ ⏱️ Tiempo Activo: %uptime
-║ ✧ 👤 Usuarios registrados: %totalreg
+║ ✦ 👨🏻‍💻 Creador: 𝖿ᥱძᥱᥣᥲᥒ 
+║ ✦ 🌀 Tipo Bot: 𝗚𝗼𝗸𝘂_𝗯𝗹𝗮𝗰𝗸-𝗕𝗼𝘁
+║ ✦ 🚩 Modo: Público
+║ ✦ 📚 Baileys: Multi Device
+║ ✦ ⏱️ Tiempo Activo: %uptime
+║ ✦ 👤 Usuarios registrados: %totalreg
 ╚═════════════════════✦
 %readmore
 ╔══✦「 Info del Usuario 」✦══╗
