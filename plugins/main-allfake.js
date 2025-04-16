@@ -35,14 +35,14 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/5491156178758'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/13124976342'
-global.namechannel = 'ᧁׁᨵׁׅׅƙׁׅυׁׅ-֮ϐׁᥣׁׅ֪ɑׁׅᝯׁ֒ƙׁׅ-֮ϐׁᨵׁׅׅtׁׅ'
+global.namechannel = 'ᧁׁᨵׁׅׅƙׁׅυׁׅ-֮ϐׁᥣׁׅ֪ɑׁׅᝯׁ֒ƙׁׅ-֮ϐׁᨵׁׅׅ'
 global.namechannel2 = '𝐆𝐎𝐊𝐔_𝐁𝐋𝐀𝐂𝐊-𝐁𝐎𝐓'
 global.namegrupo = 'ɢᴏᴋᴜ-ʙʟᴀᴄᴋ-ʙᴏᴛ-ᴍᴅ-ʟɪᴛᴇ'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝐆𝐎𝐊𝐔𝐁𝐋𝐀𝐂𝐊'
 global.namecomu2 = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝐆𝐎𝐊𝐔𝐁𝐎𝐓'
 global.colab1 = 'fedelan'
-global.colab2 = 'Dioneibi'
-global.colab3 = 'Jose'
+global.colab2 = 'Josue'
+global.colab3 = 'fede'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -68,7 +68,7 @@ var canal = 'https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n'
 var git = '' 
 var youtube = '' 
 var github = '' 
-let correo = 'GokuBlack@gmail.com'
+let correo = 'developedfede@gmail.com'
 
 global.redes = [canal, grupo, git, youtube, github, correo].getRandom()
 
@@ -97,7 +97,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363276986902836@newsletter', newsletterName: "ցօkմ-ճlαck-ճօԵ-ოժ-líԵҽ", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363276986902836@newsletter', newsletterName: "ցօkմ_ճlαck-ճօԵ", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
