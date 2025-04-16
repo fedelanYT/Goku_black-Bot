@@ -7,7 +7,7 @@ title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
-const res = (await axios.get(`https://raw.githubusercontent.com/Eliasivan/Goku-Black-Bot-MD/master/src/JSON/${command}.json`)).data;
+const res = (await axios.get(`https://raw.githubusercontent.com/fedelanYT/Goku_black-Bot/master/src/JSON/${command}.json`)).data;
 const haha = await res[Math.floor(res.length * Math.random())];
 conn.sendFile(m.chat, haha, 'error.jpg', `🔥 *${command}*`, m, null, rcanal);
 };
