@@ -115,12 +115,18 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---
 
-## `PROPIETARIO DEL BOT` 
+## `PROPIETARIO` 
 <a href="https://github.com/fedelanYT"><img src="https://github.com/fedelanYT.png" width="220" height="220" alt="fede"/></a>
 
 ---
 
-## `OWNER DEL BOT` 
+## `Colaborador` 
 <a href="https://github.com/love956"><img src="https://github.com/love956.png" width="220" height="220" alt="josue"/></a>
+
+---
+
+## `Colaborador` 
+<a href="https://github.com/DEPOOL"><img src="https://github.com/DEPOOL.png" width="220" height="220" alt="josue"/></a>
+  
   
 ## `Goku-Black-Bot`
