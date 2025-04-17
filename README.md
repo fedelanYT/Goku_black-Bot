@@ -104,8 +104,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---
 
-## 👑 **fedelanYT**
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=fedelanYT&repo=Goku_black-Bot&show_icons=true&theme=radical&hide_border=true" alt="Estadísticas de GitHub">
 
