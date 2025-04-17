@@ -1,4 +1,10 @@
 ## `Goku-Black-Bot` 
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&pause=500&color=FF0000&center=blue&vCenter=true&width=500&lines=👑+¡HOLA,+SOY+Goku_black-Bot!+🔥" alt="Typing SVG">
+</h1>
+
+
 <p align="center">
 <img src="https://telegra.ph/file/49baa73f0c2f42ad7e85b.png" alt="Goku_black-Bot" width="900"/>
 </p>
