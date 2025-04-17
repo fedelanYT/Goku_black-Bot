@@ -1,4 +1,4 @@
-//Codigo creado por Ivan 
+//Codigo creado por fedelanYT
 import fetch from 'node-fetch'
 
 let handler  = async (m, { conn, usedPrefix, command }) => {
