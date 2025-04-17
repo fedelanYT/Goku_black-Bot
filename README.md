@@ -106,5 +106,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## `PROPIETARIO DEL BOT` 
 <a href="https://github.com/fedelanYT"><img src="https://github.com/fedelanYT.png" width="250" height="250" alt="fede"/></a>
+
+---
+
+## `OWNER DEL BOT` 
+<a href="https://github.com/love956"><img src="https://github.com/love956.png" width="250" height="250" alt="josue"/></a>
   
 ## `Goku-Black-Bot`
