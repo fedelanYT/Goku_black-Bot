@@ -126,7 +126,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ---
 
 ## `Colaborador` 
-<a href="https://github.com/DEPOOL"><img src="https://github.com/DEPOOL.png" width="220" height="220" alt="josue"/></a>
+<a href="https://github.com/Brauliovh3"><img src="https://github.com/Brauliovh3.png" width="220" height="220" alt="Brauliovh3"/></a>
   
   
 ## `Goku-Black-Bot`
