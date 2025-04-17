@@ -121,12 +121,12 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ---
 
 ## `Colaborador` 
-<a href="https://github.com/love956"><img src="https://github.com/love956.png" width="220" height="220" alt="josue"/></a>
+<a href="https://github.com/love956"><img src="https://github.com/love956.png" width="210" height="210" alt="josue"/></a>
 
 ---
 
 ## `Colaborador` 
-<a href="https://github.com/Brauliovh3"><img src="https://github.com/Brauliovh3.png" width="220" height="220" alt="Brauliovh3"/></a>
+<a href="https://github.com/Brauliovh3"><img src="https://github.com/Brauliovh3.png" width="210" height="210" alt="Brauliovh3"/></a>
   
   
 ## `Goku-Black-Bot`
