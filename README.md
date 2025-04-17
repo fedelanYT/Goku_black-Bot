@@ -20,6 +20,8 @@
 
 *𝗦𝗜 𝗡𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗘𝗦 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗘𝗦𝗧𝗔 𝗘𝗡 𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗬 𝗘𝗡 𝗘𝗦𝗘 𝗖𝗔𝗦𝗢 𝗛𝗔𝗕𝗟𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗦𝗧𝗔𝗙𝗙💖*
 
+* Contacto 
+* <a href="https://wa.me/5491156178758"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=turquoise"/></a>
 
 
  > NO SPAMEAR COMANDOS
@@ -115,6 +117,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   <img src="https://github-readme-stats.vercel.app/api?username=fedelanYT&repo=Goku_black-Bot&show_icons=true&theme=radical&hide_border=true" alt="Estadísticas de GitHub">
 
 ---
+## <img src="https://raw.githubusercontent.com/vilcajoal/vilcajoal/master/assets/octocat-anime.gif" alt="Github" width="44" height="44"> Github Stats
+
+
 
 ## `PROPIETARIO DEL BOT` 
 <a href="https://github.com/fedelanYT"><img src="https://github.com/fedelanYT.png" width="220" height="220" alt="fede"/></a>
