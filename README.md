@@ -110,6 +110,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ---
 
 ## `OWNER DEL BOT` 
-<a href="https://github.com/love956"><img src="https://github.com/love956.png" width="250" height="250" alt="josue"/></a>
+<a href="https://github.com/love956"><img src="https://github.com/love956.png" width="220" height="220" alt="josue"/></a>
   
 ## `Goku-Black-Bot`
