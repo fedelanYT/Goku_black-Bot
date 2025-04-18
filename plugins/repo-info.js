@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, usedPrefix, command }) => {
-    const githubRepoURL = 'https://github.com/Ivanmods15/Goku-Black-Bot-MD-Lite';
+    const githubRepoURL = 'https://github.com/fedelanYT/Goku_black-Bot';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         Codes += `    ✩  *ENLACE DE GITHUB* : ${repoData.html_url}\n`;
         Codes += `    ✩  *DESCRIPCIÓN* : ${repoData.description || 'Sin descripción disponible'}\n\n`;
         Codes += `*¡No olvides darle una estrella y hacer fork al repositorio!*\n\n`;
-        Codes += `> *Código creado por ivan y terminado por José Elver*`;
+        Codes += `> *Código creado por fedelan y terminado por José Elver*`;
 
         await conn.sendMessage(m.chat, {
             image: { url: 'https://files.catbox.moe/zhxljj.jpg' },
@@ -30,8 +30,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363276986902836@newsletter',
-                    newsletterName: 'Power by ivan',
+                    newsletterJid: '120363400708262483@newsletter',
+                    newsletterName: 'Power by fedelan',
                     serverMessageId: 143
                 }
             }
@@ -46,8 +46,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363276986902836@newsletter',
-                    newsletterName: 'Power by ivan',
+                    newsletterJid: '120363400708262483@newsletter',
+                    newsletterName: 'Power by fedelan',
                     serverMessageId: 143
                 }
             }
