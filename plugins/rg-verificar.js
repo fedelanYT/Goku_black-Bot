@@ -101,7 +101,7 @@ let chtxt = `ੈ₊˚༅༴│↷◌⁺˖ 🌸 *𝐆𝐎𝐊𝐔 - 𝐁𝐋𝐀�
 🔥ੈ₊˚༅༴│.🍬 *𝙽𝚞𝚖𝚎𝚛𝚘 𝚍𝚎 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚘* »
 ⤷ ${sn}`;
 
-    let channelID = '120363351515256850@newsletter';
+    let channelID = '120363400708262483@newsletter';
         await conn.sendMessage(channelID, {
         text: chtxt,
         contextInfo: {
