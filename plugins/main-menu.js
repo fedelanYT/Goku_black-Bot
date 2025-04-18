@@ -183,7 +183,7 @@ await conn.sendMessage(
     mentionedJid: [m.sender],
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '671443411431514@newsletter',
+      newsletterJid: '120363400708262483@newsletter',
       newsletterName: '𝗚𝗼𝗸𝘂_𝗯𝗹𝗮𝗰𝗸-𝗕𝗼𝘁 ',
       serverMessageId: -1,
     },
