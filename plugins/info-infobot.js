@@ -47,9 +47,9 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI` },
+    document: { url: `https://chat.whatsapp.com/GYTJqKhf6z1HBsyyidsBUs` },
     mimetype: `application/${document}`,
-    fileName: `「 Goku-Black-Bot-MD-Lite 💥 」`,
+    fileName: `「 Goku_black-Bot💥 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
@@ -62,7 +62,7 @@ showAdAttribution: !![],
         title: "Eʟ Bᴏᴛ Mᴀs good!",
         thumbnail: imagen10,
         renderLargerThumbnail: !![],
-        sourceUrl: "https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI",
+        sourceUrl: "https://chat.whatsapp.com/GYTJqKhf6z1HBsyyidsBUs",
       },
     },
     caption: info,
