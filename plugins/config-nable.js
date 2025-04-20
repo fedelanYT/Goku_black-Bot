@@ -19,7 +19,7 @@ ${usedPrefix + command} modoadmin
 ${usedPrefix + command} antifake
 ${usedPrefix + command} autoresponder 
 
-💥 *OPCIONES PARA MI PROPIETARIO*
+💥 *OPCIONES PARA MI CREADOR*
 
 ${usedPrefix + command} public
 ${usedPrefix + command} status
