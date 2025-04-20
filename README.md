@@ -109,7 +109,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---
 ## Repo Stats 🔭
-m
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=fedelanYT&repo=Goku_black-Bot&theme=chartreuse-dark)
 
 ## <img src="https://raw.githubusercontent.com/vilcajoal/vilcajoal/master/assets/octocat-anime.gif" alt="Github" width="44" height="44"> Github Stats
