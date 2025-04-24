@@ -9,7 +9,7 @@ m.reply(`
 
 ▢ Git : 
 https://github.com/fedelanYT/Goku_black-Bot
-> la nueva versión es privada.`.trim())
+> ძᥱ᥎ᥱᥣ᥆⍴ᥱძ ᑲᥡ • 𝖿ᥱძᥱᥣᥲᥒ.`.trim())
     
 }
 
