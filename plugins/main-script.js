@@ -5,9 +5,10 @@ let handler = async function (m, { conn, __dirname }) {
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
   
 m.reply(`
-*≡ SCRIPT*
+*≡ SCRIPT🌟*
 
-▢ Git : https://github.com/Ivanmods15/Goku-Black-Bot-MD-Lite
+▢ Git : 
+https://github.com/fedelanYT/Goku_black-Bot
 > la nueva versión es privada.`.trim())
     
 }
