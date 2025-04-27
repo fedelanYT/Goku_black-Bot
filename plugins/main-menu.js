@@ -4,8 +4,9 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 // ==================== CONSTANTES ====================
-const ownerNumber = ["51999999999@s.whatsapp.net"] // Reemplaza con tu número
-const vcard = `BEGIN:VCARD\nVERSION:3.0\nFN:𝖿ᥱძᥱᥣᥲᥒ\nORG: Goku_Black-Bot;\nTEL;type=CELL;type=VOICE;waid=51999999999:+51 999 999 999\nEND:VCARD` // Actualiza tus datos
+const ownerNumber = ["5491156178758@s.whatsapp.net"] // Reemplaza con tu número
+const vcard = `BEGIN:VCARD\nVERSION:3.0\nFN:𝖿ᥱძᥱᥣᥲᥒ\nORG: Goku_Black-Bot;\nTEL;type=CELL;type=VOICE;waid=5491156178758:+51 911 561 78758\nEND:VCARD` // Actualiza tus datos
+
 
 // URLs de medios
 const thumbnailUrl = 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg'
