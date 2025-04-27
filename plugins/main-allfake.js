@@ -63,8 +63,8 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 
 //Enlaces
-var grupo = 'https://chat.whatsapp.com/L6Aiv7yk9YNEcmgGn4Sw7u'
-var canal = 'https://whatsapp.com/channel/0029Vb5oaHFCBtxIGWefdp0n'  
+var grupo = 'https://chat.whatsapp.com/CewLVWUzrWIJuCnvCCuh5g'
+var canal = 'https://whatsapp.com/channel/0029Vb5WCssJJhzXTWPfPw3z'  
 var git = '' 
 var youtube = '' 
 var github = '' 
@@ -97,7 +97,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363400708262483@newsletter', newsletterName: "𝗚𝗼𝗸𝘂_𝗯𝗹𝗮𝗰𝗸-𝗕𝗼𝘁 🫆", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363400665990810@newsletter', newsletterName: "𝗚𝗼𝗸𝘂_𝗯𝗹𝗮𝗰𝗸-𝗕𝗼𝘁 🫆", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -109,6 +109,6 @@ global.icono = [
 'https://telegra.ph/file/e05334d1e187123884d66.jpg',
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "671443411431514@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: 'El Bot más God💣', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363400665990810@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: 'El Bot más God💣', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
